@@ -1,0 +1,46 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "region",
+                "region_id": "NZ_S001",
+                "version": "2.1.0",
+                "mgrs": "59GPM",
+                "start_date": "2014-01-01",
+                "end_date": "2021-08-31",
+                "originator": "te",
+                "model_content": "empty",
+                "validated": "False"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            172.461727,
+                            -43.676441
+                        ],
+                        [
+                            172.815979,
+                            -43.591723
+                        ],
+                        [
+                            172.719488,
+                            -43.328584
+                        ],
+                        [
+                            172.436933,
+                            -43.37396
+                        ],
+                        [
+                            172.461727,
+                            -43.676441
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+from condaforge/mambaforge
+
+
+env tony 1.0
+workdir /home
+copy monet_env.yml /home
+
+run mamba env update -n base --file monet_env.yml
+

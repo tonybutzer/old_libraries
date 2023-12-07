@@ -1,0 +1,7 @@
+IP=`hostname -I | awk '{print $1}'`
+echo how to tunnel use this wierd syntax
+echo "ssh -N -L 9998:`hostname`:9998  `whoami`@`hostname`"
+
+#sleep 5
+jupyter lab --no-browser --ip=0.0.0.0 --port=2376 --NotebookApp.token='yaml'
+

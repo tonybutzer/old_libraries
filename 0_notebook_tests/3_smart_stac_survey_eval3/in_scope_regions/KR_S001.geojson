@@ -1,0 +1,54 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "region",
+                "region_id": "KR_S001",
+                "version": "2.0.0",
+                "mgrs": "52SDG",
+                "start_date": "2014-01-01",
+                "end_date": "2021-08-31",
+                "originator": "te",
+                "model_content": "empty",
+                "validated": "False"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            128.136631,
+                            37.941994
+                        ],
+                        [
+                            128.849786,
+                            36.719172
+                        ],
+                        [
+                            129.460635,
+                            36.871995
+                        ],
+                        [
+                            129.480339,
+                            37.07714
+                        ],
+                        [
+                            129.10437,
+                            37.658752
+                        ],
+                        [
+                            128.610595,
+                            38.149807
+                        ],
+                        [
+                            128.136631,
+                            37.941994
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "region",
+                "region_id": "CH_S001",
+                "version": "2.0.0",
+                "mgrs": "32TMT",
+                "start_date": "2014-01-01",
+                "end_date": "2021-08-31",
+                "originator": "te",
+                "model_content": "empty",
+                "validated": "False"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            7.092233,
+                            47.120983
+                        ],
+                        [
+                            7.551027,
+                            46.544071
+                        ],
+                        [
+                            9.173059,
+                            47.233214
+                        ],
+                        [
+                            8.791593,
+                            47.68584
+                        ],
+                        [
+                            7.092233,
+                            47.120983
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

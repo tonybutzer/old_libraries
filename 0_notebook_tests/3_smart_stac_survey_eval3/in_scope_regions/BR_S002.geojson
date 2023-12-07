@@ -1,0 +1,46 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "region",
+                "region_id": "BR_S002",
+                "version": "2.1.0",
+                "mgrs": "23KLP",
+                "start_date": "2014-01-01",
+                "end_date": "2021-08-31",
+                "originator": "te",
+                "model_content": "empty",
+                "validated": "False"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -46.932702,
+                            -23.916901
+                        ],
+                        [
+                            -46.15155,
+                            -23.610109
+                        ],
+                        [
+                            -46.461931,
+                            -23.187029
+                        ],
+                        [
+                            -47.154398,
+                            -23.423762
+                        ],
+                        [
+                            -46.932702,
+                            -23.916901
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

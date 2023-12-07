@@ -1,0 +1,30 @@
+name: monet-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+#holoviz
+  - hvplot
+  - geoviews
+  - datashader
+  - fastparquet
+  - python-snappy
+#xarray-related
+  - xarray
+  - intake-xarray
+  - dask
+  - dask-jobqueue
+  - zarr
+  - h5netcdf
+  - rechunker
+  - xesmf
+  - rioxarray
+#other 
+  - fsspec
+  - s3fs
+  - erddapy
+  - xmltodict
+  - folium
+  - yaml
+#aws
+  - boto3

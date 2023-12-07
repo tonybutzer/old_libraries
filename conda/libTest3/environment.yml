@@ -1,0 +1,63 @@
+name: libTest3
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+#jupyter
+  - jupyterlab
+  - jupyter-server-proxy
+  - jupyter_core
+  - jupyter_server
+  - widgetsnbextension
+  - dask-labextension
+  - nodejs
+  - notebook
+  - nbclassic
+  - nbclient
+    #- notebook=6.4.0
+    #- nbclassic=0.3.1
+    #- nbclient=0.5.3
+#xarray-related
+  - rioxarray
+# db related
+  - sqlalchemy
+  - psycopg2
+#other 
+  - fsspec
+  - s3fs
+  - erddapy
+  - xmltodict
+  - folium
+#aws
+  - boto3
+  - awscli
+#ODC
+  #- datacube
+  #- odc-stac
+# gaass-py
+  - pandas
+  - numpy
+  - rasterio
+  - matplotlib
+  - geopandas
+  - shapely
+  - scikit-learn
+  - pipe
+  - tqdm
+  - geojson
+# plotting
+  - plotly
+  - holoviews
+  - hvplot
+  - datashader
+  - panel
+# stac VERSIONS are Important Here - bummer!
+  - rioxarray
+  - pystac=1.1.0
+  - pystac-client=0.3.0
+# CPU
+  - psutil
+  - scalene
+  - yaml
+
+
